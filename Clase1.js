@@ -26,18 +26,15 @@ let usuario1 = new Usuario("Alejandro","Naranjo");
 let usuario2 = new Usuario("Nicolas","Pinzon");
 
 usuario1.datos();
-usuario2.datos();
-
 usuario1.tieneMascota("Perro");
-usuario2.tieneMascota("Gato");
-
 usuario1.mostrarMascotas();
-usuario2.mostrarMascotas();
-
 usuario1.leerlibro("En la oscuridad");
-usuario2.leerlibro("Principito");
-
 usuario1.nombrelibro();
+
+usuario2.datos();
+usuario2.tieneMascota("Gato");
+usuario2.mostrarMascotas();
+usuario2.leerlibro("Principito");
 usuario2.nombrelibro();
 
 
