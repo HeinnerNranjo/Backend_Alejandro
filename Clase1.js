@@ -41,6 +41,8 @@ const libros = [
 const mascotas = ['perro', 'gato'];
 const usuario1 = new Usuario('Alejandro', 'Naranjo', libros, mascotas);
 
+/* Mostrar la información */
+
 console.log(`Nombre completo: ${usuario1.getFullName()}`);
 console.log(`Estas son las mascotas: ${usuario1.getMascotas()}`);
 console.log(`Estos son los libros que tiene ${usuario1.getFullName()}: ${usuario1.getBookNames()}`)
